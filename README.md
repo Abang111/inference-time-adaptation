@@ -335,6 +335,4 @@ The complete DPO cleaning, capping, splitting, saved trainer state, and LoRA ada
 - **Gated-model error**: accept the model license and authenticate with an account that has access.
 - **PubMed retrieval refuses to start**: set `NCBI_EMAIL`; `NCBI_API_KEY` is optional.
 
-## Citation
 
-If this repository is useful in your work, please cite the accompanying paper. A final BibTeX entry can be added here once the paper has public bibliographic metadata.
