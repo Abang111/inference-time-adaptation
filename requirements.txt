@@ -1,0 +1,24 @@
+# Reproduction environment (Python 3.10).
+# Install the PyTorch wheel for the host CUDA version before this file.
+torch==2.7.0
+transformers==4.46.3
+accelerate==1.1.1
+datasets==4.8.4
+peft==0.18.1
+
+# TRL 0.12.2 matches Transformers 4.46.x and the DPOConfig/DPOTrainer API used
+# by 03_dpo_training/train_dpo_lora.py.
+trl==0.12.2
+
+# Reported in the paper environment; restricted to the supported OS.
+deepspeed==0.18.9; sys_platform == "linux"
+
+# Data preparation and retrieval.
+numpy==2.2.6
+pandas==2.3.3
+requests>=2.32,<3
+
+# Explicit model/tokenizer serialization dependencies.
+safetensors>=0.4.5,<1
+sentencepiece>=0.2,<1
+protobuf>=5,<7
