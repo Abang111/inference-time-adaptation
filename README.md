@@ -336,3 +336,17 @@ The complete DPO cleaning, capping, splitting, saved trainer state, and LoRA ada
 - **PubMed retrieval refuses to start**: set `NCBI_EMAIL`; `NCBI_API_KEY` is optional.
 
 
+
+## Citation
+
+If you find this repository or our work useful, please cite the following paper:
+
+```
+@inproceedings{tian2026characterizing,
+  title={Characterizing Inference-Time Adaptation in Medical {QA}: From Retrieval Augmentation to Reward-Guided Alignment},
+  author={Bangxu Tian and Yaxuan Wu and Yifan WANG},
+  booktitle={The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential},
+  year={2026},
+  url={https://openreview.net/forum?id=7jGwbFDaUn}
+}
+```
